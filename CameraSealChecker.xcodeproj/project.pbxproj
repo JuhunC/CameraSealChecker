@@ -14,6 +14,10 @@
 		F092B84D27849193007D456E /* CameraSealCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B84C27849193007D456E /* CameraSealCheckerTests.swift */; };
 		F092B85727849193007D456E /* CameraSealCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B85627849193007D456E /* CameraSealCheckerUITests.swift */; };
 		F092B85927849193007D456E /* CameraSealCheckerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B85827849193007D456E /* CameraSealCheckerUITestsLaunchTests.swift */; };
+		F092B86A27849315007D456E /* checkerData.json in Resources */ = {isa = PBXBuildFile; fileRef = F092B86927849315007D456E /* checkerData.json */; };
+		F092B86D278496C8007D456E /* CheckerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B86C278496C8007D456E /* CheckerDetail.swift */; };
+		F092B86F2784971D007D456E /* Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B86E2784971D007D456E /* Checker.swift */; };
+		F092B871278497D9007D456E /* modelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B870278497D9007D456E /* modelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		F092B85227849193007D456E /* CameraSealCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraSealCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F092B85627849193007D456E /* CameraSealCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSealCheckerUITests.swift; sourceTree = "<group>"; };
 		F092B85827849193007D456E /* CameraSealCheckerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSealCheckerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F092B86927849315007D456E /* checkerData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = checkerData.json; sourceTree = "<group>"; };
+		F092B86C278496C8007D456E /* CheckerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerDetail.swift; sourceTree = "<group>"; };
+		F092B86E2784971D007D456E /* Checker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checker.swift; sourceTree = "<group>"; };
+		F092B870278497D9007D456E /* modelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,9 @@
 		F092B83A27849192007D456E /* CameraSealChecker */ = {
 			isa = PBXGroup;
 			children = (
+				F092B868278492D2007D456E /* Resources */,
+				F092B866278491A7007D456E /* Model */,
+				F092B865278491A2007D456E /* View */,
 				F092B83B27849192007D456E /* CameraSealCheckerApp.swift */,
 				F092B83D27849192007D456E /* ContentView.swift */,
 				F092B83F27849193007D456E /* Assets.xcassets */,
@@ -125,6 +136,47 @@
 				F092B85827849193007D456E /* CameraSealCheckerUITestsLaunchTests.swift */,
 			);
 			path = CameraSealCheckerUITests;
+			sourceTree = "<group>";
+		};
+		F092B865278491A2007D456E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F092B86B278496A8007D456E /* CameraSealChecker */,
+				F092B867278491B1007D456E /* Helpers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F092B866278491A7007D456E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F092B86E2784971D007D456E /* Checker.swift */,
+				F092B870278497D9007D456E /* modelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F092B867278491B1007D456E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F092B868278492D2007D456E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F092B86927849315007D456E /* checkerData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F092B86B278496A8007D456E /* CameraSealChecker */ = {
+			isa = PBXGroup;
+			children = (
+				F092B86C278496C8007D456E /* CheckerDetail.swift */,
+			);
+			path = CameraSealChecker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +285,7 @@
 			files = (
 				F092B84327849193007D456E /* Preview Assets.xcassets in Resources */,
 				F092B84027849193007D456E /* Assets.xcassets in Resources */,
+				F092B86A27849315007D456E /* checkerData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +310,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F092B871278497D9007D456E /* modelData.swift in Sources */,
+				F092B86D278496C8007D456E /* CheckerDetail.swift in Sources */,
+				F092B86F2784971D007D456E /* Checker.swift in Sources */,
 				F092B83E27849192007D456E /* ContentView.swift in Sources */,
 				F092B83C27849192007D456E /* CameraSealCheckerApp.swift in Sources */,
 			);
