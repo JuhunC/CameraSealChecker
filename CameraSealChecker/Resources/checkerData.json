@@ -5,7 +5,8 @@
         "time": {
             "hour": 1,
             "min": 2,
-            "sec": 3
+            "sec": 3,
+            "ampm": false,
         }
     },
     {
@@ -14,7 +15,8 @@
         "time": {
             "hour": 4,
             "min": 5,
-            "sec": 6
+            "sec": 6,
+            "ampm": true
         }
     }
 ]

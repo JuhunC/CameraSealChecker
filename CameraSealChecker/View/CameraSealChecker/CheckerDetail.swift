@@ -22,14 +22,15 @@ struct CheckerDetail: View {
                 Spacer()
             }
             .padding()
-            
-            HStack{
-                Text(String(checker.time.hour))
-                Text(String(checker.time.min))
-                Text(String(checker.time.sec))
-                Spacer()
-            }
-            .padding()
+            Clock(time: checker.time)
+//            HStack{
+//                Text(String(checker.time.hour))
+//                Text(String(checker.time.min))
+//                Text(String(checker.time.sec))
+//                Text(String(checker.time.ampm ? "am" : "pm"))
+//                Spacer()
+//            }
+//            .padding()
         }
     }
 }

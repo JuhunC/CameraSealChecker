@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F04C9968278722090067CAFA /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04C9967278722090067CAFA /* Clock.swift */; };
+		F04C996A278722DF0067CAFA /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04C9969278722DF0067CAFA /* Time.swift */; };
 		F092B83C27849192007D456E /* CameraSealCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B83B27849192007D456E /* CameraSealCheckerApp.swift */; };
 		F092B83E27849192007D456E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B83D27849192007D456E /* ContentView.swift */; };
 		F092B84027849193007D456E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F092B83F27849193007D456E /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F04C9967278722090067CAFA /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		F04C9969278722DF0067CAFA /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 		F092B83827849192007D456E /* CameraSealChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraSealChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F092B83B27849192007D456E /* CameraSealCheckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSealCheckerApp.swift; sourceTree = "<group>"; };
 		F092B83D27849192007D456E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 			children = (
 				F092B86E2784971D007D456E /* Checker.swift */,
 				F092B870278497D9007D456E /* modelData.swift */,
+				F04C9969278722DF0067CAFA /* Time.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				F092B86C278496C8007D456E /* CheckerDetail.swift */,
+				F04C9967278722090067CAFA /* Clock.swift */,
 			);
 			path = CameraSealChecker;
 			sourceTree = "<group>";
@@ -310,7 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04C9968278722090067CAFA /* Clock.swift in Sources */,
 				F092B871278497D9007D456E /* modelData.swift in Sources */,
+				F04C996A278722DF0067CAFA /* Time.swift in Sources */,
 				F092B86D278496C8007D456E /* CheckerDetail.swift in Sources */,
 				F092B86F2784971D007D456E /* Checker.swift in Sources */,
 				F092B83E27849192007D456E /* ContentView.swift in Sources */,
